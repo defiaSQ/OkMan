@@ -1,0 +1,26 @@
+<html lang="ru">
+<head> 
+    <meta charset="utf-8"> 
+    <meta http-equiv="x-ua-совместимый" content="ie=edge"> 
+    <meta name="viewport" content="width=device-width, начальная шкала = 1 ">
+    <!-- Название вашего замечательного приложения для камеры --> 
+    <title>Приложение для камеры</title>
+    <!-- Ссылка на вашу основную таблицу стилей--> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- Камера --> 
+    <main id="camera">
+        <!-- Датчик камеры --> 
+        <canvas id="camera--sensor"></canvas>
+        <!-- Вид с камеры --> 
+        <video id="camera--view" autoplay playsinline></video>
+        <!-- Выход камеры --> 
+        <img src="//:0" alt="" id="camera--output">
+        <!-- Триггер камеры --> 
+        <button id="camera--trigger">Сделать снимок</button>
+    </main>
+    <!-- Ссылка на ваш файл JavaScript --> 
+    <script src="app.js"></script>
+</body>
+</html>
